@@ -1,18 +1,20 @@
 import { NavLink } from "react-router-dom";
 import { UseScrolled } from "../hooks/use-scrolled";
+import { Vector } from ".";
 
 const Header = () => {
   const scrolled = UseScrolled();
 
   return (
     <div
-      className={`h-[80px] md:h-[169px] bg-mainColor flex items-center sticky top-0 left-0 ${
+      className={`h-[80px] md:h-[169px] bg-mainColor flex items-center sticky z-30 top-0 left-0 ${
         scrolled && "border-b border-b-mediumDark shadow-sm"
       }`}
     >
+      {!scrolled && <Vector />}
       <div className="w-[80%] mx-auto flex justify-between items-center">
         <div className="w-[30%] flex items-center">
-          <p className="md:font-bold font-semibold font-raleway text-primary md:text-[24px] text-[18px]">
+          <p className="md:font-bold z-20 font-semibold font-raleway text-primary md:text-[24px] text-[18px]">
             Freelancer
           </p>
         </div>

@@ -1,7 +1,7 @@
 import toast from "react-hot-toast";
 
 const Pricing = () => {
-    const notify = () => toast("Sign up to get started")
+  const notify = () => toast("Sign up to get started");
   return (
     <div className="bg-mainColor w-full min-h-[400px] py-12 lg:py-24">
       <div className="md:w-[55%] w-[95%] mx-auto flex flex-col gap-y-6">
@@ -34,7 +34,10 @@ const Pricing = () => {
               </p>
             </div>
             <div className="absolute bottom-12 flex justify-center items-center w-full mx-auto left-0">
-              <button onClick={notify} className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]">
+              <button
+                onClick={notify}
+                className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]"
+              >
                 Get Started
               </button>
             </div>
@@ -138,7 +141,10 @@ const Pricing = () => {
               </div>
             </div>
             <div className="absolute bottom-12 flex justify-center items-center w-full mx-auto left-0">
-              <button onClick={notify} className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]">
+              <button
+                onClick={notify}
+                className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]"
+              >
                 Get Started
               </button>
             </div>
@@ -146,7 +152,7 @@ const Pricing = () => {
 
           <div className="md:w-[300px] z-10 relative h-[480px] bg-white rounded-xl p-6">
             <p className="py-7 text-black font-ubuntu font-semibold lg:font-bold text-[20px]">
-            Super
+              Super
             </p>
             <div className="flex justify-start items-baseline">
               <p className="mr-2 text-5xl font-semibold text-black font-ubuntu ">
@@ -258,12 +264,15 @@ const Pricing = () => {
                   />
                 </svg>
                 <p className="font-ubuntu font-normal text-sm text-[#272727] ">
-                Access to the fitness community
+                  Access to the fitness community
                 </p>
               </div>
             </div>
             <div className="absolute bottom-12 flex justify-center items-center w-full mx-auto left-0">
-              <button onClick={notify} className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]">
+              <button
+                onClick={notify}
+                className="h-[42px] md:h-[54px] w-[169px] flex items-center justify-center rounded-[50px] text-[#272727] hover:border-0 transition duration-300 ease-in hover:text-white text-base font-normal font-dmsans hover:bg-pink mx-auto border-[1.2px] border-[#272727]"
+              >
                 Get Started
               </button>
             </div>

@@ -1,10 +1,9 @@
-import { Hero, HeroAbout, Pricing, Service, Subscribe, Vector } from "../components";
+import { Hero, HeroAbout, Pricing, Service, Subscribe } from "../components";
 import Work from "../components/work";
 
 const Home = () => {
   return (
     <>
-      <Vector />
       <Hero />
       <HeroAbout />
       <Service />

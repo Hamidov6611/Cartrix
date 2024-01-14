@@ -9,7 +9,8 @@ export default {
         pink: "#FC3867",
         mediumDark: "#646464",
         lightMedium: "#D8D8D8",
-        black: '#070707'
+        black: '#070707',
+        darkGreey: "#212226"
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
@@ -17,6 +18,7 @@ export default {
         raleway: ["Raleway", "sans-serif"],
         dmsans: ["DM Sans", "sans-serif"],
         ubuntu: ["Ubuntu", "sans-serif"],
+        selebriSans: ["Cerebri Sans", "sans-serif"]
       },
     },
   },
